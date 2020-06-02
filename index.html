@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Api</title>
+    <link rel="stylesheet" href="css/api.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <section id="HeaderBlock">
+        <article class="container">
+            <h1 class="title">E-NEWSPAPER</h1>
+            <div class="navbar">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Business</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Entertainment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Education</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </article>
+    </section>
+    <section id="covid">
+        <article class="container">
+            <ul class="navbar-nav">
+                <h5 class="text-success font-weight-bold">corona Details</h5>
+            </ul>
+            <li class="nav-item">
+                <a href="#" class="nav-link"id="covidBlock"></a>
+            </li>
+        </article>
+    </section>
+    <section>
+        <article class="container-fluid">
+            <div id="articlesContent">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5 class="p-2 border-bottom 
+                        text-white font-weight-bold bg-primary mt-2 text-uppercase">Sports News</h5>
+                        <div id="sportsSection">
+                        <div id="sportsFirstTemplate"></div>
+                        <div id="sportsAllTemplate"></div>
+                    </div>
+                    
+                
+            </div><!--sports block ends---->
+            <!--weather-->
+            <div class="col-md-5">
+                <form>
+                    <h5 class="p-2 border-bottom
+                    text-white font-weight-bold bg-primary mt-2 text-uppercase">Search Weather</h5>
+                    <input  type="search" class="form-control" id="input" placeholder="search weather">
+                </form>
+                <div id="weatherTemplate"></div>
+            </div>
+            <!--Entertainment-->
+            <div class="col-md-4 ml-auto">
+                    <h5 class="p-2 border-bottom
+                    text-white font-weight-bold bg-primary mt-2 text-uppercase">Entertainment News</h5>
+        
+                <div id="sportsSection">
+                    <div id="entertainmentAllTemplate"></div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+    </section>
+    <script src="js/covid19.js"></script>
+    <script src="js/entertainment.js"></script>
+    <script src="js/github.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/sports.js"></script>
+
+    
+</body>
+</html>
